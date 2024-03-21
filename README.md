@@ -53,10 +53,12 @@ multisend.sendERC20Equal(tokenAddress, recipients, amount);
 The Multisend contract includes a thorough test suite developed in Solidity using the Foundry framework. This suite tests various scenarios to verify the contract's reliability.
 
 ### Running Tests
-Installation: First, install Foundry by following the Foundry Installation guide.
-Preparation: Clone the repository and navigate to the project's directory.
-Execution: Execute the tests with forge test. This compiles the contracts and runs the test suite, outputting results in the console.
-Contributing
+
+- **Installation**: First, install Foundry by following the Foundry Installation guide.
+- **Preparation**: Clone the repository and navigate to the project's directory.
+- **Execution**: Execute the tests with forge test. This compiles the contracts and runs the test suite, outputting results in the console.
+
+## Contributing
 Contributions to the Multisend contract are encouraged! For bugs or feature suggestions, please open an issue or submit a pull request on GitHub.
 
 ## License
