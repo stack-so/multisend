@@ -6,11 +6,11 @@ import "../src/Multisend.sol";
 
 contract DeployMultisend is Script {
     // The expected address of the deployed Multisend contract.
-    address public constant MULTISEND_ADDRESS = 0x481185517386d925E1E3Be12ff490f6d3c204915;
+    address public constant MULTISEND_ADDRESS = 0x00000000a58CDd07F6434960b0127405cfC384be;
     // The salt for the Multisend contract.
-    bytes32 private constant SALT = 0x5552736d6b76f4a5e8bc99cf20a26c02322bac6d9929800a427a31e9b31ca96d;
+    bytes32 private constant SALT = 0x4b8edb66695026f0ae2cf7164ad22d2edc2a64955dc628bb00bf37facd71a228;
     // The expected init code hash of the Multisend contract.
-    bytes32 private constant EXPECTED_CODE_HASH = 0xc642c602d6b339b144150e163f7ea0c6db4dc8c856d1258655a7604a00f71634;
+    bytes32 private constant EXPECTED_CODE_HASH = 0x2fa81e896b138adb5a92b1eef5c8b39d8232a42efb34bbdc1e0806c5dce77e07;
     Multisend public multisend; // The deployed Multisend contract.
     address public deployer; // The address that deployed the Multisend contract.
 
