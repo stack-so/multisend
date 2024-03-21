@@ -18,7 +18,7 @@ contract DeployMultisendTest is Test {
         multisend = Multisend(deployScript.multisend());
     }
 
-    function test_DeployedMultisend() public {
+    function test_DeployedMultisend() public view {
         assertEq(address(multisend), deployScript.MULTISEND_ADDRESS());
     }
 }
